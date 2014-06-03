@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0">
+	<name>Banckle CRM</name>
+	<author>Masood Anwer</author>
+	<creationDate>April, 2014</creationDate>
+	<copyright>Copyright (c) 2001-2014 Aspose Pty Ltd. All rights Reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>masood.anwer@banckle.com</authorEmail>
+	<authorUrl>http://banckle.com</authorUrl>
+	<version>1.0</version>
+	<description>A light, platform-independent and feature-rich web conferencing solution that allows you to host and participate in online meetings, eLearning sessions and webinars easily and effectively! Banckle Online Meeting is based on an extremely stable, robust yet flexible architecture; allowing it to be a secure, reliable, platform-independent and user-friendly web conferencing application.</description>
+	<files>
+		<filename module="mod_bancklecrm">mod_bancklecrm.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+
+	<config><fields name="params"><fieldset name="basic">
+		<field label="Don't have Banckle account yet? &lt;br&gt; &lt;a href='http://banckle.com/action/signup?ref=https%3A%2F%2Fapps.banckle.com%2F';  target=&quot;_blank&quot; &gt;Sign Up for Free! &lt;/a&gt;" type="spacer" size="10" />		
+		<field filter="raw" label=" &lt;b&gt;Banckle CRM Widget Code &lt;/b&gt;" description="Banckle CRM deployment Code from apps.banckle.com" name="banckleCRMWidget" default="" type="textarea" cols="50" rows="10" size="100" />
+	</fieldset></fields></config>
+
+    <params group="advanced">
+    </params>
+	  
+</extension>
